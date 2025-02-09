@@ -1,4 +1,7 @@
-![VERT](static/banner.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bf441748-0ec5-4c8a-b3e5-11301ee3f0bd" alt="VERT's logo" height="100">
+</p>
+<h1 align="center"><a href="https://vert.sh">VERT.sh</a></h1>
 
 VERT is a file conversion utility that uses WebAssembly to convert files on your device instead of a cloud. Check out the live instance at [vert.sh](https://vert.sh).
 
@@ -6,10 +9,12 @@ VERT is built in Svelte and TypeScript.
 
 ## Features
 
-- Convert files directly on your device using WebAssembly
+- Convert files directly on your device using WebAssembly *
 - No file size limits
 - Supports multiple file formats
 - User-friendly interface built with Svelte
+
+<sup>* Non-local video conversion is planned, but the daemon will be easily self-hostable to maintain privacy and fully local functionality.</sup>
 
 ## Getting Started
 
